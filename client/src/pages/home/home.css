@@ -1,0 +1,7 @@
+.homeContainer{
+  display: flex;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  color: whitesmoke;
+  font-weight: 400;
+}

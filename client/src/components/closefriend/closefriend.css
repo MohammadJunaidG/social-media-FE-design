@@ -1,0 +1,32 @@
+.sidebarFriend {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 15px; 
+  margin-left: -40px;
+}
+.sidebarProfileImgContainer{
+  position:relative;
+}
+
+.sidebarProfileImg{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sidebarOnline{
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: rgb(35, 204, 35);
+  position: absolute;
+  bottom: 5px;
+  left: 26px;
+}
+
+.sidebarUsername{
+  font-weight: 500;
+  margin-left: 10px;
+}

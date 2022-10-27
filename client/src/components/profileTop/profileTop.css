@@ -1,0 +1,55 @@
+.profileTop{
+  height: 650px;
+  width: 100%;
+  background-color: rgb(40, 40, 40);
+}
+.coverImgContainer{
+  height: 500px;
+  width: 60%;
+  left:20%;
+  top: -10px;
+  overflow: hidden;
+  position: absolute;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 5px 8px;
+}
+
+
+.coverPhoto{
+  height: 100%;
+  width: 100%;
+  object-fit:cover; 
+}
+
+.profileUserImg{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 22%;
+  margin-top: 0.9%;
+  top: 380px;
+  object-fit: cover;
+  position:relative;
+  border: 8px solid rgb(67, 66, 66);
+}
+
+
+.profileInfo{ 
+    display: flex;    
+    cursor: pointer;
+    align-content: left;
+    font-size: 28px;
+    color: whitesmoke;
+    margin-left: -20%;
+    margin-top: 15%;
+}
+.profileHr{
+  width: 60%;
+  height: 1px;
+  background-color: rgb(115, 115, 115);
+  border: 1px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 1px 2px;
+}
+
+
